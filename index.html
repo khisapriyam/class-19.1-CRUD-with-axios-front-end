@@ -82,12 +82,16 @@
         </div>
     </div>
 
+    <!-- 20.1 view button -->
     <div class="modal fade" id="modal_view">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header"></div>
-                <div class="modal-body"></div>
-                <div class="modal-footer"></div>
+                
+                <div class="modal-body">
+
+                   
+                </div>
+                
             </div>
         </div>
     </div>
@@ -142,36 +146,18 @@
         </div>
     </div>
 
+    <!-- class 20.1 p-1 -->
     <div class="modal fade" id="modal_delete">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 
                 <div class="modal-body">
-                    <form action="" id="devs_add_form">
-                        <div class="form-group mb-3">
-                            <label for="">Name</label>
-                            <input id="name" class="form-control" type="text">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="">Email</label>
-                            <input id="email" class="form-control" type="text">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="">Photo</label>
-                            <input id="photo" class="form-control" type="text">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="">Skills</label>
-                            <select class="form-control" name="" id="skill_list">
-                                <option value="">--Select--</option>
-                                <!-- will load all skills here from data base -->
-
-                            </select>
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="btn btn-success w-100" data-bs-dismiss="modal" type="submit" value="Add">
-                        </div>
-                    </form>
+                    <h2>Are You sure?</h2>
+                    <hr>
+                    <div class="btns mt-1 d-flex justify-content-end">
+                        <button data-bs-dismiss="modal" class="btn btn-info">Close</button>&nbsp; &nbsp;
+                        <button data-bs-dismiss="modal" delId="" id="deldata" class="btn btn-danger">Delete</button>
+                    </div>
                 </div>
                 
             </div>
